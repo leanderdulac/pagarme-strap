@@ -11,7 +11,6 @@ $bootstrap-sass-asset-helper: (twbs-font-path('') != unquote("twbs-font-path('')
 // --------------------------------------------------
 $border-radius:			 3px;
 
-
 // Grays
 // -------------------------
 
@@ -79,7 +78,7 @@ $icon-font-name: "glyphicons-halflings-regular" !default;
 
 // Components
 // -------------------------
-// Based on 14px font-size and 1.428 line-height (~20px to start)
+// Based on 16px font-size and 1.428 line-height (~20px to start)
 
 $padding-base-vertical:          6px !default;
 $padding-base-horizontal:        12px !default;
