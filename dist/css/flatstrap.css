@@ -2437,18 +2437,18 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 /* line 62, ../../scss/_buttons.scss */
 .btn-warning {
   color: white;
-  background-color: #e3b411;
-  border-color: #daac10; }
+  background-color: #d29a02;
+  border-color: #c89302; }
   /* line 506, ../../scss/_mixins.scss */
   .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active {
     color: white;
-    background-color: #bd960e;
-    border-color: #a17f0c; }
+    background-color: #aa7c02;
+    border-color: #8b6601; }
   /* line 511, ../../scss/_mixins.scss */
   .open .btn-warning.dropdown-toggle {
     color: white;
-    background-color: #bd960e;
-    border-color: #a17f0c; }
+    background-color: #aa7c02;
+    border-color: #8b6601; }
   /* line 517, ../../scss/_mixins.scss */
   .btn-warning:active, .btn-warning.active {
     background-image: none; }
@@ -2457,11 +2457,11 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
     background-image: none; }
   /* line 530, ../../scss/_mixins.scss */
   .btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
-    background-color: #e3b411;
-    border-color: #daac10; }
+    background-color: #d29a02;
+    border-color: #c89302; }
   /* line 536, ../../scss/_mixins.scss */
   .btn-warning .badge {
-    color: #e3b411;
+    color: #d29a02;
     background-color: white; }
 
 /* line 66, ../../scss/_buttons.scss */
@@ -4669,10 +4669,10 @@ input[type="button"].btn-block {
 
 /* line 58, ../../scss/_labels.scss */
 .label-warning {
-  background-color: #e3b411; }
+  background-color: #d29a02; }
   /* line 581, ../../scss/_mixins.scss */
   .label-warning[href]:hover, .label-warning[href]:focus {
-    background-color: #b48e0d; }
+    background-color: #9f7502; }
 
 /* line 62, ../../scss/_labels.scss */
 .label-danger {
@@ -4931,7 +4931,7 @@ a.thumbnail.active {
 
 /* line 72, ../../scss/_progress-bars.scss */
 .progress-bar-warning {
-  background-color: #e3b411; }
+  background-color: #d29a02; }
   /* line 600, ../../scss/_mixins.scss */
   .progress-striped .progress-bar-warning {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
