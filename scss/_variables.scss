@@ -399,12 +399,13 @@ $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 
 
+
 // Form states and alerts
 // -------------------------
 
-$state-success-text:             #3c763d !default;
-$state-success-bg:               #dff0d8 !default;
-$state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
+$state-success-text:             #3bb881 !default;
+$state-success-bg:               #3bb881 !default;
+$state-success-border:           #3bb881 !default;
 
 $state-info-text:                #31708f !default;
 $state-info-bg:                  #d9edf7 !default;
