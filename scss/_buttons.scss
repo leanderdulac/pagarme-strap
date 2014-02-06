@@ -19,29 +19,29 @@
   @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base);
   @include user-select(none);
 
-  // &:focus {
-  //   @include tab-focus();
-  // }
+  &:focus {
+   @include tab-focus();
+  }
 
-  // &:hover,
-  // &:focus {
-  //   color: $btn-default-color;
-  //   text-decoration: none;
-  // }
+  &:hover,
+  &:focus {
+    color: $btn-default-color;
+    text-decoration: none;
+  }
 
-  // &:active,
-  // &.active {
-  //   outline: 0;
-  //   background-image: none;
-  // }
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;
+  }
 
-  // &.disabled,
-  // &[disabled],
-  // fieldset[disabled] & {
-  //   cursor: not-allowed;
-  //   pointer-events: none; // Future-proof disabling of clicks
-  //   @include opacity(.65);
-  // }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: not-allowed;
+    pointer-events: none; // Future-proof disabling of clicks
+    @include opacity(.65);
+  }
 }
 
 
