@@ -277,14 +277,32 @@ input[type="checkbox"],
   @include form-control-validation($state-warning-text, $state-warning-text, $state-warning-bg);
 }
 .has-error {
-  z-index: 999999;
   @include form-control-validation($state-danger-text, $state-danger-text, $state-danger-bg);
 }
 .has-success {
-  z-index: 99999;
   @include form-control-validation($state-success-text, $state-success-text, $state-success-bg);
 }
 
+// Feedback states
+div.ng-dirty {
+  &.ng-valid {
+    z-index: 999999;
+    @include form-control-validation($state-success-text, $state-success-text, $state-success-bg);
+
+	.form-control-feedback {
+		&:before { content: "\e013"; } 
+	}
+  }
+
+  &.ng-invalid {
+    z-index: 999999;
+    @include form-control-validation($state-danger-text, $state-danger-text, $state-danger-bg);
+	
+	.form-control-feedback {
+		&:before { content: "\e014"; }
+	}
+  }
+}
 
 // Static form control text
 //
