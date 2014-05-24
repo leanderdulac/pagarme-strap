@@ -15,11 +15,11 @@ url:              http://localhost:9001
 
 # Custom vars
 current_version:  3.0.3
-repo:             https://github.com/littlesparkvt/flatstrap
+repo:             https://github.com/littlesparkvt/Flatstrap-for-Bootstrap-3
 
 download:
-  source:         https://github.com/littlesparkvt/flatstrap/archive/master.zip
-  dist:           https://github.com/littlesparkvt/flatstrap/releases/download/v3.0.3/bootstrap-3.0.3-dist.zip
+  source:         https://github.com/littlesparkvt/Flatstrap-for-Bootstrap-3/archive/master.zip
+  dist:           https://github.com/littlesparkvt/Flatstrap-for-Bootstrap-3/releases/download/v3.0.3/bootstrap-3.0.3-dist.zip
 
 blog:             http://www.flatstrap.org/
 expo:             http://expo.getbootstrap.com

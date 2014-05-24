@@ -1,5 +1,5 @@
 {
-  "name": "flatstrap",
+  "name": "Flatstrap",
   "version": "3.0.3",
   "main": [
     "./dist/css/bootstrap.css",

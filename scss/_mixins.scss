@@ -358,7 +358,7 @@
 // Short retina mixin for setting background-image and -size
 
 @mixin img-retina($file-1x, $file-2x, $width-1x, $height-1x) {
-  background-image: url("#{$file-1x}");
+  background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$file-1x}"), "#{$file-1x}"));
 
   @media
   only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -367,7 +367,7 @@
   only screen and (        min-device-pixel-ratio: 2),
   only screen and (                min-resolution: 192dpi),
   only screen and (                min-resolution: 2dppx) {
-    background-image: url(#{$file-2x});
+    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$file-2x}"), "#{$file-2x}"));
     background-size: $width-1x $height-1x;
   }
 }
@@ -496,22 +496,22 @@
 // Easily pump out default styles, as well as :hover, :focus, :active,
 // and disabled options for all buttons
 @mixin button-variant($color, $background, $border) {
-  // color: $color;
-  // background-color: $background;
-  // border-color: $border;
+  color: $color;
+  background-color: $background;
+  border-color: $border;
 
   &:hover,
   &:focus,
   &:active,
   &.active {
-    // color: $color;
-    // background-color: darken($background, 8%);
-    //     border-color: darken($border, 12%);
+    color: $color;
+    background-color: darken($background, 8%);
+        border-color: darken($border, 12%);
   }
   .open & { &.dropdown-toggle {
-    // color: $color;
-    // background-color: darken($background, 8%);
-    //     border-color: darken($border, 12%);
+    color: $color;
+    background-color: darken($background, 8%);
+        border-color: darken($border, 12%);
   } }
   &:active,
   &.active {
@@ -528,16 +528,16 @@
     &:focus,
     &:active,
     &.active {
-      // background-color: $background;
-      //     border-color: $border;
+      background-color: $background;
+          border-color: $border;
     }
   }
 
   .badge {
-    // color: $background;
-    // background-color: $color;
+    color: $background;
+    background-color: $color;
   }
- }
+}
 
 // Button sizes
 // -------------------------

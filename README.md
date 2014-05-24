@@ -1,4 +1,4 @@
-# [Flatstrap](http://www.flatstrap.org) [![devDependency Status](https://david-dm.org/littlesparkvt/flatstrap/dev-status.png)](https://david-dm.org/littlesparkvt/flatstrap#info=devDependencies)
+# [Flatstrap 3](http://getbootstrap.com) [![Build Status](https://secure.travis-ci.org/twbs/bootstrap.png)](http://travis-ci.org/twbs/bootstrap) [![devDependency Status](https://david-dm.org/littlesparkvt/Flatstrap-for-Bootstrap-3/dev-status.png)](https://david-dm.org/littlesparkvt/Flatstrap-for-Bootstrap-3#info=devDependencies)
 
 Sometimes a project doesn't need gradients and drop shadows. We got rid of them.
 
@@ -22,9 +22,9 @@ To get started, check out <http://www.flatstrap.org>!
 
 Three quick start options are available:
 
-- [Download the latest release](https://github.com/littlesparkvt/flatstrap/archive/master.zip).
-- Clone the repo: `git clone https://github.com/littlesparkvt/flatstrap`.
-- Install with [Bower](http://bower.io): `bower install flatstrap`.
+- [Download the latest release](https://github.com/littlesparkvt/Flatstrap-for-Bootstrap-3/archive/master.zip).
+- Clone the repo: `git clone https://github.com/littlesparkvt/Flatstrap-for-Bootstrap-3.git`.
+- Install with [Bower](http://bower.io): `bower install flatstrap3`.
 
 Read the [Getting Started page](http://getbootstrap.com/getting-started/) for information on the framework contents, templates and examples, and more.
 
